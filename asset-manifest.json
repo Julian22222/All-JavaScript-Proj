@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/All-JavaScript-Proj/static/css/main.e0fe8c4e.css",
+    "main.js": "/All-JavaScript-Proj/static/js/main.ad2eef96.js",
+    "static/media/right-2.png": "/All-JavaScript-Proj/static/media/right-2.247971172181519ba925.png",
+    "static/media/left-2.png": "/All-JavaScript-Proj/static/media/left-2.f288487e2e5b3f2fa619.png",
+    "static/media/right-3.png": "/All-JavaScript-Proj/static/media/right-3.e38ee3124c3c6d20c5ec.png",
+    "static/media/left-3.png": "/All-JavaScript-Proj/static/media/left-3.c2514d4e7caf81d42176.png",
+    "static/media/right-1.png": "/All-JavaScript-Proj/static/media/right-1.d003286acc5778a77961.png",
+    "static/media/left-1.png": "/All-JavaScript-Proj/static/media/left-1.b324bd7f4c83969a5959.png",
+    "static/media/theWin1.mp3": "/All-JavaScript-Proj/static/media/theWin1.faa173f06c4b281c842b.mp3",
+    "static/media/draw2.png": "/All-JavaScript-Proj/static/media/draw2.1e060bc7a8d65c3bbf34.png",
+    "static/media/vs.png": "/All-JavaScript-Proj/static/media/vs.5b67b0d42df52949f10a.png",
+    "static/media/header.png": "/All-JavaScript-Proj/static/media/header.ee8414dc6eda1b18f236.png",
+    "static/media/win1.png": "/All-JavaScript-Proj/static/media/win1.064c7658bc6351d36e2e.png",
+    "static/media/theEnd1.mp3": "/All-JavaScript-Proj/static/media/theEnd1.7c3dc237757a7b80a104.mp3",
+    "static/media/lose1.png": "/All-JavaScript-Proj/static/media/lose1.6c370cc367e3c77b9341.png",
+    "static/media/shaking2.mp3": "/All-JavaScript-Proj/static/media/shaking2.728cab625baf6798cc0a.mp3",
+    "static/media/player.png": "/All-JavaScript-Proj/static/media/player.8e560c935e301b6317fb.png",
+    "static/media/draw1.mp3": "/All-JavaScript-Proj/static/media/draw1.2c1a3e7ff267ed00821d.mp3",
+    "static/media/hit.mp3": "/All-JavaScript-Proj/static/media/hit.0658f6ca8e111ee64c02.mp3",
+    "index.html": "/All-JavaScript-Proj/index.html",
+    "main.e0fe8c4e.css.map": "/All-JavaScript-Proj/static/css/main.e0fe8c4e.css.map",
+    "main.ad2eef96.js.map": "/All-JavaScript-Proj/static/js/main.ad2eef96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0fe8c4e.css",
+    "static/js/main.ad2eef96.js"
+  ]
+}
