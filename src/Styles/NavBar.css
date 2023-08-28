@@ -1,0 +1,20 @@
+.nav-block {
+  background-color: rgb(34, 95, 75);
+  height: 40px;
+}
+
+.top-heading {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.eachEll {
+  margin-right: 20px;
+  font-size: larger;
+  margin-top: 5px;
+}
+
+.NavBar-item {
+  color: wheat;
+}
