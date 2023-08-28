@@ -18,7 +18,7 @@ function App() {
       <div className="App-header">
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/All-JavaScript-Proj" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Cat" element={<Cat />} />
           <Route path="/RPS" element={<RPS />} />
