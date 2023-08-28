@@ -1,11 +1,8 @@
 import { React, useState, useEffect } from "react";
-// import Sound from "react-sound";
-// import AudioPlayer from "react-audio-player";
 
 import headerPicture from "../IMG/header.png";
 import clickMe from "../IMG/clickMe.png";
 import info from "../IMG/i.png";
-// import music from "../IMG/music.png";
 import player from "../IMG/player.png";
 import cpu from "../IMG/cpu.png";
 import win from "../IMG/win1.png";
@@ -21,7 +18,6 @@ import right3 from "../IMG/right-3.png";
 
 import shakeSound from "../Music/shaking2.mp3";
 import handHit from "../Music/hit.mp3";
-// import track from "../Music/La Samba.mp4";
 import endSound from "../Music/theEnd1.mp3";
 import winSound from "../Music/theWin1.mp3";
 import drawSound from "../Music/draw1.mp3";
