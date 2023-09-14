@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.cat-img-cont {
+  display: flex;
+  justify-content: center;
+}
+
 .cat-card {
   max-width: 400px;
   padding: 16px;

@@ -13,3 +13,15 @@
   display: flex;
   justify-content: center;
 }
+
+.f-proj,
+.el-proj {
+  display: flex;
+  justify-content: center;
+}
+
+.f-proj {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}

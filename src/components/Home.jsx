@@ -1,6 +1,16 @@
 // import { Link } from "react-router-dom";
 
 const Home = () => {
+  const arr = [
+    "Mini calendar",
+    "Calculator",
+    "Age calculator",
+    "Weather app",
+    "Drag&drop",
+    "Music player",
+    "Dark theme",
+  ];
+
   return (
     <div>
       <h1 className="header-home">Welcome to my JavaScript projects.</h1>
@@ -35,6 +45,19 @@ const Home = () => {
           alt="react"
         />
       </div>
+
+      <h2 className="f-proj" style={{ fontSize: 20 }}>
+        Future mini projects:
+      </h2>
+      <ul>
+        {arr.map((el) => {
+          return (
+            <li className="el-proj" key={el}>
+              {el}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };

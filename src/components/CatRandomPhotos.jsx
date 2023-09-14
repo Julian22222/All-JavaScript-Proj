@@ -35,14 +35,17 @@ function CatRandomPhotos() {
   return (
     <div class="cat-container">
       <h2>Colourful cats</h2>
-      <div class="cat-card">
-        <img
-          src={image}
-          alt="Cat"
-          className="cat-img"
-          // width={600}
-        ></img>
+      <div className="cat-img-cont">
+        <div class="cat-card">
+          <img
+            src={image}
+            alt="Cat"
+            className="cat-img"
+            // width={600}
+          ></img>
+        </div>
       </div>
+
       <button onClick={hadleClick} class="cat-btn" type="button">
         Random Cat
       </button>
