@@ -1,6 +1,6 @@
 .all-page-rps {
-  background-color: rgb(235, 208, 92);
-  height: 130vh;
+  background-image: url("../IMG/peakpx\ \(24\)back.jpg");
+  backdrop-filter: grayscale(50%);
 }
 
 .header-rps {
@@ -88,9 +88,11 @@
 
 .container {
   display: flex;
+  margin-top: -60px;
 }
 
 .clickMe-blink {
+  margin-bottom: 20px;
   animation: blink-animation 0.7s steps(5, start) infinite;
   -webkit-animation: blink-animation 0.7s steps(5, start) infinite;
 }
@@ -118,7 +120,7 @@
 }
 
 .btn-options {
-  margin-top: 20px;
+  margin-top: -50px;
   /* background-color: lightcoral; */
   background-color: rgb(153, 29, 29);
   width: 80px;
@@ -167,21 +169,6 @@
   justify-content: space-around;
   flex-direction: row;
   margin-top: 20px;
-}
-
-.pre-battle-field-change {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin-top: 20px;
-  background-image: url("https://img.freepik.com/premium-vector/red-blue-comic-background_678781-406.jpg");
-  background-size: 900px;
-  width: 900px;
-  height: 500px;
-  border: 2px solid;
-  color: pink;
-  /* margin-left: 50%; */
-  justify-content: center;
 }
 
 .battle-field {
@@ -240,6 +227,21 @@
 .preEllement2 {
   margin-left: 280px;
   margin-top: 150px;
+}
+
+.pre-battle-field-change {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 20px;
+  background-image: url("https://img.freepik.com/premium-vector/red-blue-comic-background_678781-406.jpg");
+  background-size: 900px;
+  width: 900px;
+  height: 500px;
+  border: 2px solid;
+  color: pink;
+  /* margin-left: 50%; */
+  justify-content: center;
 }
 
 .battle-field-change {

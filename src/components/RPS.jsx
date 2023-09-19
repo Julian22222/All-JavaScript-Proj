@@ -275,8 +275,8 @@ function RPS() {
   return (
     <div class="all-page-rps">
       <img
-        // width={150}
-        // height={100}
+        // width={800}
+        // height={300}
         src={headerPicture}
         className="header-rps"
         alt="header picture"
@@ -298,9 +298,9 @@ function RPS() {
           {/* //////////////////click me sign */}
           {showClickMe ? (
             <img
-              class
-              width={350}
+              width={300}
               height={150}
+              // style={{ margin: 30 }}
               src={clickMe}
               className="clickMe-blink"
               alt="clickMe picture"
@@ -359,7 +359,7 @@ function RPS() {
           <div className="mainInfo-container">
             <div className="block-1">
               <img
-                width={150}
+                width={100}
                 height={60}
                 src={player}
                 className="player"
@@ -367,12 +367,12 @@ function RPS() {
               />
 
               <p style={{ color: "black" }}>
-                Points:<span style={{ fontSize: 50 }}>{myPoints}</span>
+                Points:<span style={{ fontSize: 30 }}>{myPoints}</span>
               </p>
             </div>
             <div className="block-2">
               <img
-                width={150}
+                width={100}
                 height={50}
                 src={cpu}
                 className="cpu"
@@ -380,7 +380,7 @@ function RPS() {
               />
 
               <p style={{ color: "black" }}>
-                Points:<span style={{ fontSize: 50 }}>{opponentPoints}</span>
+                Points:<span style={{ fontSize: 30 }}>{opponentPoints}</span>
               </p>
             </div>
           </div>
