@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/All-JavaScript-Proj/static/css/main.2efe35e9.css",
-    "main.js": "/All-JavaScript-Proj/static/js/main.7b7f0c94.js",
+    "main.css": "/All-JavaScript-Proj/static/css/main.1453b07b.css",
+    "main.js": "/All-JavaScript-Proj/static/js/main.27827686.js",
     "static/media/right-2.png": "/All-JavaScript-Proj/static/media/right-2.247971172181519ba925.png",
     "static/media/left-2.png": "/All-JavaScript-Proj/static/media/left-2.f288487e2e5b3f2fa619.png",
     "static/media/right-3.png": "/All-JavaScript-Proj/static/media/right-3.e38ee3124c3c6d20c5ec.png",
     "static/media/left-3.png": "/All-JavaScript-Proj/static/media/left-3.c2514d4e7caf81d42176.png",
+    "static/media/peakpx (24)back.jpg": "/All-JavaScript-Proj/static/media/peakpx (24)back.57bff77e5d015c9ce6a1.jpg",
     "static/media/right-1.png": "/All-JavaScript-Proj/static/media/right-1.d003286acc5778a77961.png",
     "static/media/left-1.png": "/All-JavaScript-Proj/static/media/left-1.b324bd7f4c83969a5959.png",
     "static/media/theWin1.mp3": "/All-JavaScript-Proj/static/media/theWin1.faa173f06c4b281c842b.mp3",
@@ -20,11 +21,11 @@
     "static/media/draw1.mp3": "/All-JavaScript-Proj/static/media/draw1.2c1a3e7ff267ed00821d.mp3",
     "static/media/hit.mp3": "/All-JavaScript-Proj/static/media/hit.0658f6ca8e111ee64c02.mp3",
     "index.html": "/All-JavaScript-Proj/index.html",
-    "main.2efe35e9.css.map": "/All-JavaScript-Proj/static/css/main.2efe35e9.css.map",
-    "main.7b7f0c94.js.map": "/All-JavaScript-Proj/static/js/main.7b7f0c94.js.map"
+    "main.1453b07b.css.map": "/All-JavaScript-Proj/static/css/main.1453b07b.css.map",
+    "main.27827686.js.map": "/All-JavaScript-Proj/static/js/main.27827686.js.map"
   },
   "entrypoints": [
-    "static/css/main.2efe35e9.css",
-    "static/js/main.7b7f0c94.js"
+    "static/css/main.1453b07b.css",
+    "static/js/main.27827686.js"
   ]
 }
