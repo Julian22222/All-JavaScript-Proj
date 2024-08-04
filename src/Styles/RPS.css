@@ -124,8 +124,8 @@
   /* background-color: lightcoral; */
   background-color: rgb(153, 29, 29);
   width: 80px;
-  animation-duration: 1s;
-  animation-name: slidein;
+  /* animation-duration: 1s;
+  animation-name: slidein; */
 }
 
 @keyframes slidein {
@@ -142,6 +142,19 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 .epty-batlefield {

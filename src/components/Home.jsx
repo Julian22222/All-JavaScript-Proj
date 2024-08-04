@@ -9,6 +9,7 @@ const Home = () => {
     "Drag&drop",
     "Music player",
     "Dark theme",
+    "Pokemon battle",
   ];
 
   return (
