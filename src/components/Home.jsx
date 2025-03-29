@@ -3,13 +3,11 @@
 const Home = () => {
   const arr = [
     "Mini calendar",
-    "Calculator",
     "Age calculator",
     "Weather app",
     "Drag&drop",
     "Music player",
     "Dark theme",
-    "Pokemon battle",
   ];
 
   return (

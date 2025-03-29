@@ -2,9 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function CatRandomPhotos() {
-  const [image, setImage] = useState(
-    "https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
-  );
+  const [image, setImage] = useState(null);
 
   const hadleClick = () => {
     fetcHandler();
@@ -35,16 +33,18 @@ function CatRandomPhotos() {
   return (
     <div class="cat-container">
       <h2>Colourful cats</h2>
-      <div className="cat-img-cont">
-        <div class="cat-card">
-          <img
-            src={image}
-            alt="Cat"
-            className="cat-img"
-            // width={600}
-          ></img>
+      {image !== null ? (
+        <div className="cat-img-cont">
+          <div class="cat-card">
+            <img
+              src={image}
+              alt="Cat"
+              className="cat-img"
+              // width={600}
+            ></img>
+          </div>
         </div>
-      </div>
+      ) : null}
 
       <button onClick={hadleClick} class="cat-btn" type="button">
         Random Cat
