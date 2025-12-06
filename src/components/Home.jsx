@@ -102,8 +102,8 @@ const Home = () => {
               marginBottom: "20px",
             }}
           >
-            Welcome
-            <br /> to my JavaScript projects.
+            Welcome to my JavaScript projects.
+            <br /> 👾
           </h1>
           <br />
           <br />

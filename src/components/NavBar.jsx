@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { useState } from "react";
 
 const NavBar = () => {
   const items = ["Home", "Cat", "RPS", "Wordle"];
@@ -29,7 +28,6 @@ const NavBar = () => {
           >
             JS
           </div>
-          {/* <span>JS, ReactJS, HTML, CSS</span> */}
         </div>
 
         <div
@@ -42,18 +40,7 @@ const NavBar = () => {
         >
           <ul style={{ display: "flex", listStyle: "none" }}>
             {items.map((el) => {
-              if (el === "Home") {
-                return (
-                  <li className="eachEll" key={el}>
-                    <Link
-                      to="/Home"
-                      style={{ color: "#fff", textDecoration: "none" }}
-                    >
-                      {el}
-                    </Link>
-                  </li>
-                );
-              } else if (el === "Wordle") {
+              if (el === "Wordle") {
                 return (
                   <li className="eachEll" key={el}>
                     <Link
