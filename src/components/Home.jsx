@@ -57,10 +57,13 @@ const Home = () => {
             >
               JS
             </div>
-            <span>JS, ReactJS, HTML, CSS</span>
+            <span>React JS, JavaScript, Node JS, HTML, CSS</span>
           </div>
 
-          {/* <div
+          {/* //////////////////////////////////////////// */}
+
+          {/* /////Right Side nav Bar///// */}
+          <div
             style={{
               display: "flex",
               gap: "25px",
@@ -68,28 +71,36 @@ const Home = () => {
               alignItems: "center",
             }}
           >
-            <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
-              Home
+            <a
+              href="https://github.com/Julian22222/All-JavaScript-Proj"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              GitHub Code
             </a>
-            <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
-              Cat
+            <a
+              href="https://github.com/Julian22222/Wordle"
+              style={{ color: "#fff", textDecoration: "none" }}
+            >
+              Wordle GitHub Code
             </a>
-            <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
+            {/* <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
               RPS
             </a>
             <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
               Wordle
-            </a>
+            </a> */}
 
-            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            {/* <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <img
                 src="https://i.pravatar.cc/40"
                 alt=""
                 style={{ borderRadius: "50%" }}
               />
               <span>Julian Golovens</span>
-            </div>
-          </div> */}
+            </div> */}
+          </div>
+
+          {/* ////////////// */}
         </div>
 
         {/* LEFT TEXT AREA */}
@@ -187,7 +198,7 @@ const Home = () => {
           style={{
             position: "absolute",
             right: "-130px",
-            top: "30px",
+            top: "80px",
             width: "650px",
             height: "650px",
             borderRadius: "50%",
@@ -206,7 +217,7 @@ const Home = () => {
           style={{
             position: "absolute",
             right: "280px",
-            top: "160px",
+            top: "180px",
             textAlign: "center",
           }}
         >

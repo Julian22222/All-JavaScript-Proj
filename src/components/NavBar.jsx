@@ -10,7 +10,7 @@ const NavBar = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          // marginBottom: "20px",
+          marginBottom: "5px",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -24,6 +24,7 @@ const NavBar = () => {
               alignItems: "center",
               justifyContent: "center",
               fontWeight: "bold",
+              marginLeft: "20px",
             }}
           >
             JS
