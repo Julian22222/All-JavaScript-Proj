@@ -10,7 +10,6 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Cat from "./components/Cat";
 import RPS from "./components/RPS";
-import Calculator from "./components/Calculator";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Cat" element={<Cat />} />
           <Route path="/RPS" element={<RPS />} />
-          <Route path="/Calculator" element={<Calculator />} />
         </Routes>
       </div>
     </BrowserRouter>
