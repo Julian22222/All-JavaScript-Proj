@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const items = ["Home", "Cat", "RPS", "Wordle"];
+  const items = ["Home", "Cat", "RPS", "Wordle", "To Do List"];
 
   return (
     <div>
@@ -46,6 +46,17 @@ const NavBar = () => {
                   <li className="eachEll" key={el}>
                     <Link
                       to="https://julian22222.github.io/Wordle/"
+                      style={{ color: "#fff", textDecoration: "none" }}
+                    >
+                      {el}
+                    </Link>
+                  </li>
+                );
+              } else if (el === "To Do List") {
+                return (
+                  <li className="eachEll" key={el}>
+                    <Link
+                      to="https://to-do-list-front-end.onrender.com/"
                       style={{ color: "#fff", textDecoration: "none" }}
                     >
                       {el}

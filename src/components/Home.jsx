@@ -4,13 +4,61 @@ import image1 from "../IMG/PIC/js.jpg";
 import image2 from "../IMG/PIC/html.png";
 import image3 from "../IMG/PIC/css.png";
 import image4 from "../IMG/PIC/react.png";
-import image5 from "../IMG/PIC/code.png";
-import move1 from "../IMG/PIC/move1.gif";
-import move2 from "../IMG/PIC/move2.gif";
-import move3 from "../IMG/PIC/move3.gif";
+import image5 from "../IMG/PIC/psql.jpg";
+import image6 from "../IMG/PIC/code.png";
+import image7 from "../IMG/Proj/image1c.jpg";
+import image8 from "../IMG/Proj/image2a.jpg";
+import image9 from "../IMG/Proj/wordl.jpg";
+import image10 from "../IMG/Proj/To_Do_List.png";
+
+// import move1 from "../IMG/PIC/move1.gif";
+// import move2 from "../IMG/PIC/move2.gif";
+// import move3 from "../IMG/PIC/move3.gif";
 import move4 from "../IMG/PIC/move4.gif";
+import ProjCard from "./ProjCard";
+import { SingleCard } from "../ProjCard";
 
 const Home = () => {
+  const cardArr = [
+    new SingleCard(
+      image7,
+      "Colourful Cat",
+      "Front-end Project. Applied ReactJS / JavaScript / Node JS / HTML / CSS",
+      "/Cat",
+      "https://github.com/Julian22222/All-JavaScript-Proj",
+      "https://github.com/Julian22222/All-JavaScript-Proj",
+      "Front",
+    ),
+    new SingleCard(
+      image8,
+      "Rock Paper Scissors",
+      "Front-end Project. Applied ReactJS / JavaScript / Node JS / HTML / CSS",
+      "/RPS",
+      "https://github.com/Julian22222/All-JavaScript-Proj",
+      "https://github.com/Julian22222/All-JavaScript-Proj",
+      "Front",
+    ),
+
+    new SingleCard(
+      image9,
+      "Wordle Game",
+      "Front-end Project. Applied ReactJS / JavaScript / Node JS / HTML / CSS",
+      "https://julian22222.github.io/Wordle/",
+      "https://github.com/Julian22222/Wordle",
+      "https://github.com/Julian22222/Wordle",
+      "Front",
+    ),
+    new SingleCard(
+      image10,
+      "To Do List",
+      " Front-end + Back-end Project. Applied ReactJS / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
+      "https://to-do-list-front-end.onrender.com/",
+      "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
+      "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
+      "Both",
+    ),
+  ];
+
   return (
     <div
       style={{
@@ -57,7 +105,7 @@ const Home = () => {
             >
               JS
             </div>
-            <span>React JS, JavaScript, Node JS, HTML, CSS</span>
+            <span>React JS, JavaScript, PSQL, Node JS, HTML, CSS</span>
           </div>
 
           {/* //////////////////////////////////////////// */}
@@ -71,18 +119,19 @@ const Home = () => {
               alignItems: "center",
             }}
           >
-            <a
+            <p>Weather in Manchester is ....</p>
+            {/* <a
               href="https://github.com/Julian22222/All-JavaScript-Proj"
               style={{ color: "#fff", textDecoration: "none" }}
             >
               GitHub Code
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://github.com/Julian22222/Wordle"
               style={{ color: "#fff", textDecoration: "none" }}
             >
               Wordle GitHub Code
-            </a>
+            </a> */}
             {/* <a href="#" style={{ color: "#fff", textDecoration: "none" }}>
               RPS
             </a>
@@ -130,51 +179,29 @@ const Home = () => {
           <br />
           <br />
 
-          {/* PROGRAMS*/}
-          <div
-            style={{ display: "flex", alignItems: "center", margin: "20px 0" }}
-          >
-            <img
-              src={image1}
-              alt=""
-              style={{
-                width: "150px",
-                borderRadius: "50%",
-                marginRight: "-15px",
-              }}
-            />
-            <img
-              src={image2}
-              alt=""
-              style={{
-                width: "150px",
-                borderRadius: "50%",
-                marginRight: "-15px",
-              }}
-            />
-            <img
-              src={image3}
-              alt=""
-              style={{
-                width: "150px",
-                borderRadius: "50%",
-                marginRight: "10px",
-              }}
-            />
-            <img
-              src={image4}
-              alt=""
-              style={{
-                width: "150px",
-                borderRadius: "50%",
-                marginRight: "10px",
-              }}
-            />
-
-            <span style={{ opacity: 0.7 }}>
-              Other mini projects are in the works...
-            </span>
+          <div className="CardPortfolio">
+            <ul style={{ listStyleType: "none" }}>
+              {cardArr.map((proj) => {
+                return (
+                  <li key={proj.title}>
+                    <ProjCard
+                      img={proj.img}
+                      title={proj.title}
+                      description={proj.description}
+                      seeProject_URL={proj.seeProject_URL}
+                      gitHub_F_END={proj.gitHub_F_END}
+                      gutHub_B_END={proj.gitHub_B_END}
+                      switch={proj.btnSwitch}
+                    />
+                  </li>
+                );
+              })}
+            </ul>
           </div>
+
+          <br />
+          <br />
+          <hr />
 
           {/* BUTTON */}
           <a
@@ -237,7 +264,7 @@ const Home = () => {
         {/* BOTTOM CARD */}
         <div
           style={{
-            marginTop: "250px",
+            marginTop: "50px",
             background: "#ffffff15",
             padding: "20px",
             borderRadius: "12px",
@@ -246,6 +273,61 @@ const Home = () => {
             gap: "20px",
           }}
         >
+          {/* USED PROGRAMS*/}
+          <div
+            style={{ display: "flex", alignItems: "center", margin: "20px 0" }}
+          >
+            <img
+              src={image1}
+              alt=""
+              style={{
+                width: "150px",
+                borderRadius: "50%",
+                marginRight: "-15px",
+              }}
+            />
+            <img
+              src={image2}
+              alt=""
+              style={{
+                width: "150px",
+                borderRadius: "50%",
+                marginRight: "-15px",
+              }}
+            />
+            <img
+              src={image3}
+              alt=""
+              style={{
+                width: "150px",
+                borderRadius: "50%",
+                marginRight: "10px",
+              }}
+            />
+            <img
+              src={image4}
+              alt=""
+              style={{
+                width: "150px",
+                borderRadius: "50%",
+                marginRight: "10px",
+              }}
+            />
+            <img
+              src={image5}
+              alt=""
+              style={{
+                width: "150px",
+                borderRadius: "50%",
+                marginRight: "10px",
+              }}
+            />
+
+            <span style={{ opacity: 0.7 }}>
+              Other mini projects are in the works...
+            </span>
+          </div>
+
           <div>
             <h2 style={{ flexDirection: "column" }}>
               Ideas for Future mini projects:
