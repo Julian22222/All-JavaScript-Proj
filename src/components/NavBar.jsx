@@ -68,7 +68,7 @@ const NavBar = () => {
                   <li className="eachEll" key={el}>
                     {
                       <Link
-                        to={`/${el}`}
+                        to={`${el}/`}
                         style={{ color: "#fff", textDecoration: "none" }}
                       >
                         {el}
