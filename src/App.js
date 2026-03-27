@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import { React } from "react";
 
 import "./App.css";
@@ -13,7 +13,7 @@ import RPS from "./components/RPS";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App-header">
         <NavBar />
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/RPS" element={<RPS />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
