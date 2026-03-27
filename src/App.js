@@ -13,7 +13,7 @@ import RPS from "./components/RPS";
 
 function App() {
   return (
-    <BrowserRouter basename="/All-JavaScript-Proj">
+    <BrowserRouter>
       <div className="App-header">
         <NavBar />
         <Routes>

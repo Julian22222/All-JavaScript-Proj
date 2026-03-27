@@ -25,14 +25,15 @@ const ProjCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions className="btn-project-cont">
-        <Button size="small">
-          <a
-            href={props.seeProject_URL}
-            target="_blank"
-            className="btn-anker-proj-card"
-          >
-            <input type="button" class="buttonProject" value="See project" />
-          </a>
+        <Button
+          size="small"
+          component="a"
+          href={props.seeProject_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-anker-proj-card"
+        >
+          See project
         </Button>
         {props.switch === "Front" || props.switch === "Both" ? (
           <Button size="small">
