@@ -60,27 +60,8 @@ const Home = () => {
   ];
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#343d4b",
-        padding: "40px",
-        fontFamily: "Poppins, sans-serif",
-        color: "#fff",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <div
-        style={{
-          width: "90%",
-          background: "#2f3640",
-          borderRadius: "12px",
-          padding: "40px",
-          position: "relative",
-          overflow: "hidden",
-        }}
-      >
+    <div className="home-container">
+      <div className="home-main">
         {/* NAVIGATION */}
         <div
           style={{
@@ -110,7 +91,7 @@ const Home = () => {
 
           {/* //////////////////////////////////////////// */}
 
-          {/* /////Right Side nav Bar///// */}
+          {/* /////Right Side message///// */}
           <div
             style={{
               display: "flex",
@@ -152,8 +133,8 @@ const Home = () => {
           {/* ////////////// */}
         </div>
 
-        {/* LEFT TEXT AREA */}
-        <div style={{ width: "50%" }}>
+        {/* LEFT TEXT AREA BLOCK*/}
+        <div className="left-text-block">
           <h1
             style={{
               fontSize: "36px",
@@ -222,6 +203,7 @@ const Home = () => {
 
         {/* PNG IMAGE RIGHT SIDE */}
         <div
+          className="png-image"
           style={{
             position: "absolute",
             right: "-130px",
@@ -240,39 +222,13 @@ const Home = () => {
         </div>
 
         {/* Right Title */}
-        <div
-          style={{
-            position: "absolute",
-            right: "280px",
-            top: "180px",
-            textAlign: "center",
-          }}
-        >
-          <div style={{ fontSize: "42px", fontWeight: "600" }}>Full-Stack</div>
-          <div
-            style={{
-              marginTop: "10px",
-              borderTop: "1px solid #aaa",
-              paddingTop: "10px",
-              fontSize: "24px",
-            }}
-          >
-            Software Development
-          </div>
+        <div className="right-title">
+          <div className="main-title">Full-Stack</div>
+          <div className="sub-title">Software Development</div>
         </div>
 
         {/* BOTTOM CARD */}
-        <div
-          style={{
-            marginTop: "50px",
-            background: "#ffffff15",
-            padding: "20px",
-            borderRadius: "12px",
-            display: "flex",
-            flexDirection: "column",
-            gap: "20px",
-          }}
-        >
+        <div className="bottom-card">
           {/* USED PROGRAMS*/}
           <div
             style={{ display: "flex", alignItems: "center", margin: "20px 0" }}

@@ -446,3 +446,79 @@
     transform: translateY(0);
   }
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-rps {
+    margin-left: 10%;
+    font-size: 24px;
+  }
+
+  .info-container {
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    padding: 10px 20px;
+  }
+
+  .btn-container {
+    margin-right: 10px;
+  }
+
+  .mainInfo-container {
+    flex-direction: column;
+  }
+
+  .container {
+    margin-top: -40px;
+  }
+
+  .RPS-btn {
+    width: 120px;
+    height: 120px;
+  }
+
+  .epty-batlefield {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+
+  .myEllement {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-rps {
+    margin-left: 5%;
+    font-size: 20px;
+  }
+
+  .info-container {
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    padding: 10px 15px;
+  }
+
+  .info-rules {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .RPS-btn {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+  }
+
+  .epty-batlefield {
+    width: 100%;
+    height: 300px;
+  }
+
+  .myEllement {
+    margin-top: 80px;
+  }
+}

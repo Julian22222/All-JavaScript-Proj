@@ -18,3 +18,29 @@
 .NavBar-item {
   color: wheat;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-block {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .top-heading {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .eachEll {
+    margin-right: 15px;
+    font-size: medium;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .eachEll {
+    margin-right: 10px;
+    font-size: small;
+  }
+}

@@ -56,11 +56,40 @@
   transition: all 0.275s ease-in;
 }
 
-/* @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  } */
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cat-card {
+    max-width: 350px;
+    padding: 12px;
+    margin: 12px;
+  }
+
+  .cat-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .cat-btn {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cat-card {
+    max-width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .cat-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .cat-btn {
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+}
