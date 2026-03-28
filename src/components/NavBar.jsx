@@ -41,26 +41,37 @@ const NavBar = () => {
         >
           <ul style={{ display: "flex", listStyle: "none" }}>
             {items.map((el) => {
-              if (el === "Wordle") {
+              if (el === "Home") {
                 return (
                   <li className="eachEll" key={el}>
                     <Link
+                      to="/"
+                      style={{ color: "#fff", textDecoration: "none" }}
+                    >
+                      Home
+                    </Link>
+                  </li>
+                );
+              } else if (el === "Wordle") {
+                return (
+                  <li className="eachEll" key={el}>
+                    <a
                       to="https://julian22222.github.io/Wordle/"
                       style={{ color: "#fff", textDecoration: "none" }}
                     >
                       {el}
-                    </Link>
+                    </a>
                   </li>
                 );
               } else if (el === "To Do List") {
                 return (
                   <li className="eachEll" key={el}>
-                    <Link
+                    <a
                       to="https://to-do-list-front-end.onrender.com/"
                       style={{ color: "#fff", textDecoration: "none" }}
                     >
                       {el}
-                    </Link>
+                    </a>
                   </li>
                 );
               } else {
