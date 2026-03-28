@@ -33,7 +33,7 @@ const Home = () => {
       image8,
       "Rock Paper Scissors",
       "Front-end Project. Applied ReactJS / JavaScript / Node JS / HTML / CSS",
-      "/#/RPS",
+      "/All-JavaScript-Proj/#/RPS",
       "https://github.com/Julian22222/All-JavaScript-Proj",
       "https://github.com/Julian22222/All-JavaScript-Proj",
       "Front",
