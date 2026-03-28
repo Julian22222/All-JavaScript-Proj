@@ -56,7 +56,7 @@ const NavBar = () => {
                 return (
                   <li className="eachEll" key={el}>
                     <a
-                      to="https://julian22222.github.io/Wordle/"
+                      href="https://julian22222.github.io/Wordle/"
                       style={{ color: "#fff", textDecoration: "none" }}
                     >
                       {el}
