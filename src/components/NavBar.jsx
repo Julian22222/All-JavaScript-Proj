@@ -67,7 +67,7 @@ const NavBar = () => {
                 return (
                   <li className="eachEll" key={el}>
                     <a
-                      to="https://to-do-list-front-end.onrender.com/"
+                      href="https://to-do-list-front-end.onrender.com/"
                       style={{ color: "#fff", textDecoration: "none" }}
                     >
                       {el}
